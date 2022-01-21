@@ -1,11 +1,11 @@
-apiVersion: 1.0.0
+schemaVersion: 2.1.0
 metadata:
   generateName: spring-petclinic-
 projects:
   - name: spring-petclinic
     source:
       type: git
-      location: 'https://github.com/redhat-developer-demos/spring-petclinic.git'
+      location: 'https://github.com/chrisspring/spring-petclinic.git'
       branch: main
 components:
   - id: redhat/java11/latest
